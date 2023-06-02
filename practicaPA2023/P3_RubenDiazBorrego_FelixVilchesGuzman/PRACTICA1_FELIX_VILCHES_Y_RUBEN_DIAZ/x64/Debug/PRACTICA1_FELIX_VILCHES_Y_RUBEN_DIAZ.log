@@ -1,0 +1,37 @@
+﻿  EscenaFin.cpp
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+  EscenaInicio.cpp
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+  Game.cpp
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Sphere.h(18,83): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Sphere.h(18,99): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Jugador.h(11,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Jugador.h(12,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\EscenaJuego.h(67,38): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\EscenaJuego.h(68,53): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Game.cpp(81,47): warning C4244: '=': conversión de '_Rep' a 'long'; posible pérdida de datos
+          with
+          [
+              _Rep=__int64
+          ]
+  PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.cpp
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Sphere.h(18,83): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Sphere.h(18,99): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Jugador.h(11,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Jugador.h(12,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\EscenaJuego.h(67,38): warning C4244: 'return': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\EscenaJuego.h(68,53): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.cpp(22,26): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
+C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.cpp(71,26): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Generando código...
+  PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ.vcxproj -> C:\Users\G531\Desktop\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\x64\Debug\PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.exe

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ELEMENTS">
+      <UniqueIdentifier>{ede8ba37-a792-4814-90a5-36e657c2d6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MODELS">
+      <UniqueIdentifier>{d6a4c7fe-6064-4ca0-8fa5-0c27ba8923e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\CORE">
+      <UniqueIdentifier>{585c2790-ab60-472d-938d-a4bd1eba8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\CAMERAS">
+      <UniqueIdentifier>{f4c83469-d12e-48e0-981d-a84662e3646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\UTILITIES">
+      <UniqueIdentifier>{6ed0f799-1c91-46db-8814-d06501e0116e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\ELEMENTS">
+      <UniqueIdentifier>{42256013-c450-4063-8122-c5f533a62008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MODELS">
+      <UniqueIdentifier>{e95b10f5-9be6-43ab-93ad-97f5b77cd2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\CORE">
+      <UniqueIdentifier>{a49a0642-3899-4101-88af-561bf5636dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\CAMERAS">
+      <UniqueIdentifier>{e8e731ac-2b94-4c79-bb17-b58dc02e520a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\UTILITIES">
+      <UniqueIdentifier>{8b4e6a04-8095-4b82-8dce-2386f45c39b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\CLASES NUEVAS">
+      <UniqueIdentifier>{c14219cd-a98c-48aa-b506-5dcd90c1fd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\CLASES NUEVAS">
+      <UniqueIdentifier>{08cfd8cd-5c62-49d4-9d9b-a81369b3599b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Archivos de origen\CAMERAS</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Archivos de origen\UTILITIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuboid.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de origen\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Archivos de origen\MODELS</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Archivos de origen\MODELS</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Archivos de origen\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Archivos de origen\MODELS</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Teapot.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>Archivos de origen\ELEMENTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Archivos de origen\UTILITIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Archivos de origen\UTILITIES</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaJuego.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUP.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="CamaraFija.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaculoMeteorito.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemigos.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaFin.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaInicio.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cube.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuboid.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Teapot.h">
+      <Filter>Archivos de encabezado\ELEMENTS</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Archivos de encabezado\MODELS</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Archivos de encabezado\MODELS</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Archivos de encabezado\MODELS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Archivos de encabezado\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado\CAMERAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Archivos de encabezado\UTILITIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Archivos de encabezado\UTILITIES</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Archivos de encabezado\UTILITIES</Filter>
+    </ClInclude>
+    <ClInclude Include="CamaraFija.h">
+      <Filter>Archivos de encabezado\CAMERAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaJuego.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUP.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaculoMeteorito.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaculoBasuraEspacial.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigos.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaInicio.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaFin.h">
+      <Filter>Archivos de encabezado\CLASES NUEVAS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
