@@ -63,6 +63,9 @@ this->scenes.push_back(finScene);
 
 // Establecer activeScene como inicioScene para comenzar con la escena de inicio  
 this->activeScene = inicioScene;
+
+cout << activeScene << endl;
+cout << "LO DE ENCIMA ES ACTIVE SCENE" << endl;
 }
 
 

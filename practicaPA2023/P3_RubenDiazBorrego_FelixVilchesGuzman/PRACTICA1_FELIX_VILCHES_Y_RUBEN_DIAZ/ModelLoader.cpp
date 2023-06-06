@@ -50,7 +50,7 @@ void ModelLoader::LoadModel(const string& filePath) {
 				else if (line[0] == 'v') 
 				{
 					Vector3D vertex = this->parseObjLineToVector3D(line);
-					cout << vertex.GetY() << endl;
+					//cout << vertex.GetY() << endl;
 					this->calcBoundaries(vertex);
 
 					this->Vertex.push_back(vertex);

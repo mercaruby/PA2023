@@ -15,6 +15,8 @@ void Scene::Render()
 	{
 		this->gameObjects[i]->Render();
 	}
+
+	cout << "Esta llamando al render de Scene, no al de EscenaInicio" << endl;
 }
 void Scene::Update(const double &dt)
 {
@@ -22,7 +24,9 @@ void Scene::Update(const double &dt)
 	{
 		this->gameObjects[i]->Update(dt, gravity);
 		this->checkBoundary();
+		
 	}
+
 
 	
 }
