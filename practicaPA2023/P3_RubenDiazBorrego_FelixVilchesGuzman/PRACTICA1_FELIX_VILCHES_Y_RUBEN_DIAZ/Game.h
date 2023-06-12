@@ -49,6 +49,7 @@ public:
 	void ProcessKeyPressed(unsigned char key, int px, int py);  //Un método para recoger la información de pulsación de teclas : se llamará desde la función keyPressed.
 	void ProcessMouseMovement(int x, int y);						//Un método para recoger la información de movimiento del ratón : se llamará desde la función mouseMoved.
 	void ProcessMouseClick(int button, int state, int px, int py);  //Un método para recoger la información de pulsación de ratón : se llamará desde la función mousePressed.
+
 	
 
 

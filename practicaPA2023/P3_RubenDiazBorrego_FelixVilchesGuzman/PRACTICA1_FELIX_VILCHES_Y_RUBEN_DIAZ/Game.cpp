@@ -87,21 +87,26 @@ void Game::Update()
 	if (this->activeScene->GetFinEscena()) {
 
 		this->activeScene->SetFinEscena(false);
+		
 
 		// Buscar la posición actual de la escena activa en el vector 'scenes'  
 		auto it = find(scenes.begin(), scenes.end(), activeScene);
 
+		
 		// Avanzar al siguiente elemento en el vector 'scenes', si es posible  
 		if (it != scenes.end()) {
 			// Si está en la última posición del vector, volver a la posición 0  
 			if (it + 1 == scenes.end()) {
 				activeScene = static_cast<EscenaJuego*>(*scenes.begin());
 				//this->activeScene->ClearScene();
+				
 			}
 			else {
 				activeScene = static_cast<EscenaJuego*>(*(it + 1));
+				this->activeScene->resetScene();
 			}
 		}
 	}
 	
 }
+

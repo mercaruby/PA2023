@@ -44,9 +44,10 @@ public:
 
 	
 	void AddGameObject(Solid* object);
-	void Render();
-	void Update(const double &dt);
+	virtual void Render();
+	virtual void Update(const double &dt);
 	void checkBoundary();
+	virtual void resetScene() = 0;
 
 	virtual void ProcessKeyPressed(unsigned char key, int px, int py) = 0;
 };

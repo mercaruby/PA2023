@@ -76,10 +76,13 @@ public:
 	Jugador getJugador() { return this->jugador; }
 	void setJugador(const Jugador& jugadorToSet) { this->jugador = jugadorToSet; }
 
+	bool getDerrota() const { return this->derrota; }
+	void setDerrota(bool _derrota) { derrota = _derrota; }
+
 	void addGameObject(Solid* object);
 	void addObstaculos(Solid* object);
 	void ClearScene();
-	void Render();
+	void Render() override;
 
 
 
@@ -92,7 +95,7 @@ public:
 	
 	//progreso del juego
 
-	void Update(const float& time);
+	void Update(const double& time) override;
 	void limitesObstaculos(const float& time);
 
 	void comprobarColisionObstaculos();
@@ -100,6 +103,8 @@ public:
 	void spawnearPowerUP();
 
 	void ProcessKeyPressed(unsigned char key, int px, int py);
+	void resetObstacles();
+	void resetScene();
 
 };
 

@@ -25,4 +25,5 @@ public:
 	void agregarFichero();
 	void visualizar();
 	void crearRanking(int puntos);
+	
 };

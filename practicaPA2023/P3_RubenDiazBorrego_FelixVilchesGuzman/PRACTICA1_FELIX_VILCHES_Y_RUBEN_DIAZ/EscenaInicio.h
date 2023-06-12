@@ -43,15 +43,17 @@ public:
 		//this->AddGameObject(infoScene);
     }
 
-	void ClearScene() {
-		//gameObjects.clear();
-	}
+
 
 	void ProcessKeyPressed(unsigned char key, int px, int py);
-	void Render();
+	void Render() override;
 	void addGameObject(Solid* object);
 	void crearEscenaInicio();
 
-	
+	void ClearScene() {
+		gameObjects.clear();
+	}
 
+	void resetScene(){};
+	void Update(const double& dt) {};
 };

@@ -129,7 +129,7 @@ void EscenaJuego::Render()
 	}
 }
 
-void EscenaJuego::Update(const float& time)
+void EscenaJuego::Update(const double& time)
 {
 	if (!derrota) {
 		this->puntos += time;
@@ -161,11 +161,23 @@ void EscenaJuego::Update(const float& time)
 			this->powerUp->Update(time, this->GetGravity());
 		}
 
+		for (int idx = 0; idx < this->obstaculos.size(); idx++)
+		{
+			this->obstaculos[idx]->Update(time, this->GetGravity());
+
+		}
+
+		
+
+
 		//Si perdemos, mostrar ranking y reiniciar
 		if (derrota) {
+			this->ClearScene();
+			this->finEscena = true;
 			cout << "HAS PERDIDO!" << endl;
 			ranking.crearRanking(puntos);
 			cout << "PULSA M PARA VOLVER A INTENTARLO" << endl;
+			
 		}
 
 	}
@@ -265,4 +277,30 @@ void EscenaJuego::ProcessKeyPressed(unsigned char key, int px, int py)
 {
 	this->jugador.ProcessKeyPressed(key, px, py);
 	this->camara.ProcessKeyPressed(key, px, py);
+}
+
+void EscenaJuego::resetObstacles() {
+	// Reinicia el número de obstáculos y otros parámetros relacionados  
+	numeroObst = 3; // Por ejemplo, puedes cambiar esto a otro valor si deseas que el juego sea más difícil o más fácil al reiniciar  
+
+	// Limpia los obstáculos actuales  
+	for (Solid* obstacle : obstaculos) {
+		delete obstacle;
+	}
+	obstaculos.clear();
+
+	// Recrea los obstáculos  
+	crearObstaculos();
+}
+
+void EscenaJuego::resetScene() {
+	ClearScene(); // Limpia la escena actual  
+	crearEscenario(); // Recrea el escenario  
+	resetObstacles(); // Reinicia y recrea los obstáculos  
+	crearJugador(); // Recrea el jugador  
+	crearPowerUps(); // Recrea los power-ups  
+	setPuntos(0); // Restablece los puntos a 0  
+	derrota = false;
+
+	cout << "se ha reseteado la escena" << endl;
 }

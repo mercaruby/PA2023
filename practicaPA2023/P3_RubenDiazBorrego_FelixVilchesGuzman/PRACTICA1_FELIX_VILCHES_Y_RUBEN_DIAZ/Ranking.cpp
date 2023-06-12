@@ -83,3 +83,4 @@ void Ranking::crearRanking(int puntos) {
 	agregarFichero();
 	visualizar();
 }
+
