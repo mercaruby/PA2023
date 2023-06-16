@@ -17,9 +17,9 @@ const int WINDOW_POSITION_X = 300;
 const int WINDOW_POSITION_Y = 400;
 const char TITLE[] = "PRACTICA 3 FELIX VILCHES Y RUBEN DIAZ";
 
-const GLclampf RED = 0;
-const GLclampf GREEN = 0;
-const GLclampf BLUE = 0.4;
+const GLclampf RED = 0.3;
+const GLclampf GREEN = 0.3;
+const GLclampf BLUE = 1;
 const GLclampf ALPHA = 1;
 
 bool fullScreenMode = FALSE;								 //Tenemos que inicializar el booleano fullScreenMode a false porque si no nos dará error luego

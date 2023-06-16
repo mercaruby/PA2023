@@ -160,6 +160,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Solid.cpp" />
     <ClCompile Include="ObstaculoMeteorito.cpp" />
+    <ClCompile Include="ObstaculoBasuraEspacial.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Teapot.cpp" />
     <ClCompile Include="Text.cpp" />

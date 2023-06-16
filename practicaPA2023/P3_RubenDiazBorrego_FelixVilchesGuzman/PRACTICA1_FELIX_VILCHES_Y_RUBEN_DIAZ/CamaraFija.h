@@ -6,6 +6,7 @@ class CamaraFija: public Camera
 private:
 
 public:
+	CamaraFija() {};
 	CamaraFija(Vector3D positionToSet, Vector3D orientationToSet) : Camera(positionToSet, orientationToSet) {}
 	CamaraFija(float x, float y, float z) : Camera(x, y, z) {}
 

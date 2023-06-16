@@ -129,6 +129,9 @@
     <ClCompile Include="EscenaInicio.cpp">
       <Filter>Archivos de origen\CLASES NUEVAS</Filter>
     </ClCompile>
+    <ClCompile Include="ObstaculoBasuraEspacial.cpp">
+      <Filter>Archivos de origen\CLASES NUEVAS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

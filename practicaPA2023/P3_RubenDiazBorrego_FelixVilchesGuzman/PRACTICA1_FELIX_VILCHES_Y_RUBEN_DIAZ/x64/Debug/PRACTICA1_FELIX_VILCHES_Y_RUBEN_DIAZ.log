@@ -1,10 +1,5 @@
-﻿  EscenaFin.cpp
+﻿  EscenaInicio.cpp
 D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
 D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
 D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
-  Text.cpp
-D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(22,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
-D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(23,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
-D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ\Color.h(24,59): warning C4244: 'argumento': conversión de 'const float' a 'int'; posible pérdida de datos
-  Generando código...
   PRACTICA1_FELIX_VILCHES_Y_RUBEN_DIAZ.vcxproj -> D:\PA2023\practicaPA2023\P3_RubenDiazBorrego_FelixVilchesGuzman\x64\Debug\PRACTICA2_FELIX_VILCHES_Y_RUBEN_DIAZ.exe

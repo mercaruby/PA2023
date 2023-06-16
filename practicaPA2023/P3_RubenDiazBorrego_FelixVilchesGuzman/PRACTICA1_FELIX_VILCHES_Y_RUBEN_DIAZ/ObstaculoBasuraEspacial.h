@@ -15,6 +15,7 @@ class ObstaculoBasuraEspacial: public Enemigos
 
 	//	void CambiarColorConTiempo();
 
+		 void Update(const float& time, const Vector3D& gravity) override;
 	};
 
 

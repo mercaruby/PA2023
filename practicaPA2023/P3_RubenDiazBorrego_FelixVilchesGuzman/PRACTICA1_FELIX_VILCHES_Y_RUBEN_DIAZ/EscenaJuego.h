@@ -51,7 +51,7 @@ private:
 
 
 public:
-
+	EscenaJuego() {};
 	EscenaJuego(int numObs, Vector3D posCamara = Vector3D(5.0f, 5.0f, 20.0f),
 		Vector3D rotCamara = Vector3D(20.0f, 0.0f, 0.0f)) :
 		Scene(), camara(CamaraFija(posCamara, rotCamara)) {
@@ -72,6 +72,9 @@ public:
 
 	PowerUP* getPowerUP() { return this->powerUp; }
 	void setPowerUP(PowerUP* powerToSet) { this->powerUp = powerToSet; }
+
+	bool getcolisionPowerUP() const { return this->colisionPowerUp; }
+	
 
 	Jugador getJugador() { return this->jugador; }
 	void setJugador(const Jugador& jugadorToSet) { this->jugador = jugadorToSet; }
